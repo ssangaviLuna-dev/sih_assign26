@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Lab Equipment & Maintenance Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <svg class="logo-icon" viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"></path>
+          <path d="M8.5 2h7"></path>
+          <path d="M7 16h10"></path>
+        </svg>
+        <h1>LabTrack Pro</h1>
+      </div>
+      <p class="subtitle">College Laboratory Equipment Issue & Maintenance Register</p>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- Controls / Filters Section -->
+    <section class="controls-card">
+      <div class="search-filter-grid">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="searchInput" placeholder="Search equipment name or student name..." aria-label="Search equipment name or student name">
+          <button id="clearSearch" class="btn-clear hidden" aria-label="Clear search">&times;</button>
+        </div>
+
+        <div class="filter-box">
+          <label for="conditionFilter">Condition Filter:</label>
+          <select id="conditionFilter">
+            <option value="ALL">All Conditions</option>
+            <option value="Good">Good</option>
+            <option value="Needs Repair">Needs Repair</option>
+            <option value="Damaged">Damaged</option>
+            <option value="Missing">Missing</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="status-bar">
+        <span id="recordCounter" class="record-counter">Showing 0 of 0 records</span>
+        <button id="resetFiltersBtn" class="btn-secondary">Reset Filters</button>
+      </div>
+    </section>
+
+    <!-- Content Workspace Grid -->
+    <div class="workspace-grid">
+      <!-- Equipment List Section -->
+      <section class="table-card">
+        <div id="loadingState" class="state-container">
+          <div class="spinner"></div>
+          <p>Loading records...</p>
+        </div>
+
+        <div id="errorState" class="state-container hidden">
+          <svg viewBox="0 0 24 24" width="48" height="48" stroke="#ef4444" stroke-width="2" fill="none">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <p class="error-message">Unable to load data.</p>
+          <button id="retryBtn" class="btn-primary">Retry Loading</button>
+        </div>
+
+        <div id="emptyState" class="state-container hidden">
+          <svg viewBox="0 0 24 24" width="48" height="48" stroke="#9ca3af" stroke-width="2" fill="none">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <p>No matching equipment found.</p>
+        </div>
+
+        <div id="tableContainer" class="table-responsive hidden">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Equipment Name</th>
+                <th>Issued To</th>
+                <th>Issue Date</th>
+                <th>Condition</th>
+                <th>Service Warning</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <!-- Dynamically Populated -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Details Panel Section -->
+      <aside class="details-card">
+        <h2 class="card-title">Equipment Details</h2>
+        <div id="noSelectionState" class="state-container">
+          <p>Select any record from the list to view complete details.</p>
+        </div>
+        <div id="detailsContent" class="details-content hidden">
+          <!-- Dynamically Populated -->
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <p>&copy; 2026 College Laboratory Services Management. Internal Academic Register System.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,402 @@
+[
+  {
+    "record_id": "REC-001",
+    "equipment_id": "LAB-MIC-01",
+    "equipment_name": "Binocular Compound Microscope",
+    "issued_to": "Alex Mercer",
+    "issue_date": "2026-03-01",
+    "return_date": "2026-03-05",
+    "condition": "Good",
+    "next_service_date": "2026-09-15"
+  },
+  {
+    "record_id": "REC-002",
+    "equipment_id": "LAB-OSC-04",
+    "equipment_name": "Digital Storage Oscilloscope 100MHz",
+    "issued_to": "Sophia Chen",
+    "issue_date": "2026-02-10",
+    "return_date": "2026-02-12",
+    "condition": "Needs Repair",
+    "next_service_date": "2026-03-01"
+  },
+  {
+    "record_id": "REC-003",
+    "equipment_id": "LAB-CEN-02",
+    "equipment_name": "High-Speed Refrigerated Centrifuge",
+    "issued_to": "Liam Patel",
+    "issue_date": "2026-03-10",
+    "return_date": null,
+    "condition": "Good",
+    "next_service_date": "2026-08-20"
+  },
+  {
+    "record_id": "REC-004",
+    "equipment_id": "LAB-SPE-01",
+    "equipment_name": "UV-Vis Spectrophotometer",
+    "issued_to": "Emma Watson",
+    "issue_date": "2026-01-15",
+    "return_date": "2026-01-20",
+    "condition": "Damaged",
+    "next_service_date": "2026-02-15"
+  },
+  {
+    "record_id": "REC-005",
+    "equipment_id": "LAB-MULT-08",
+    "equipment_name": "Digital Multimeter Fluke 87V",
+    "issued_to": "Noah Kim",
+    "issue_date": "2026-03-12",
+    "return_date": null,
+    "condition": "Good",
+    "next_service_date": "2026-04-10"
+  },
+  {
+    "record_id": "REC-006",
+    "equipment_id": "LAB-BAL-03",
+    "equipment_name": "Analytical Precision Balance",
+    "issued_to": "Olivia Garcia",
+    "issue_date": "2026-02-01",
+    "return_date": "2026-02-02",
+    "condition": "Good",
+    "next_service_date": "2026-01-10"
+  },
+  {
+    "record_id": "REC-007",
+    "equipment_id": "LAB-HOT-05",
+    "equipment_name": "Magnetic Stirrer Hotplate",
+    "issued_to": "Ethan Jackson",
+    "issue_date": "2026-03-14",
+    "return_date": null,
+    "condition": "Needs Repair",
+    "next_service_date": "2026-03-20"
+  },
+  {
+    "record_id": "REC-008",
+    "equipment_id": "LAB-PH-02",
+    "equipment_name": "Benchtop pH Meter",
+    "issued_to": "Ava Martinez",
+    "issue_date": "2026-02-20",
+    "return_date": "2026-02-21",
+    "condition": "Missing",
+    "next_service_date": "2026-07-01"
+  },
+  {
+    "record_id": "REC-009",
+    "equipment_id": "LAB-MIC-02",
+    "equipment_name": "Binocular Compound Microscope",
+    "issued_to": "Mason Davis",
+    "issue_date": "2026-03-02",
+    "return_date": "2026-03-06",
+    "condition": "Good",
+    "next_service_date": "2026-09-15"
+  },
+  {
+    "record_id": "REC-010",
+    "equipment_id": "LAB-FUN-01",
+    "equipment_name": "Function Generator 30MHz",
+    "issued_to": "Isabella Lopez",
+    "issue_date": "2026-01-10",
+    "return_date": "2026-01-11",
+    "condition": "Good",
+    "next_service_date": "2026-02-01"
+  },
+  {
+    "record_id": "REC-011",
+    "equipment_id": "LAB-PIP-10",
+    "equipment_name": "Micropipette Set (0.5-1000uL)",
+    "issued_to": "Lucas Gonzalez",
+    "issue_date": "2026-03-15",
+    "return_date": null,
+    "condition": "Good",
+    "next_service_date": "2026-10-05"
+  },
+  {
+    "record_id": "REC-012",
+    "equipment_id": "LAB-PSU-03",
+    "equipment_name": "DC Variable Power Supply 30V/5A",
+    "issued_to": "Mia Rodriguez",
+    "issue_date": "2026-02-18",
+    "return_date": "2026-02-19",
+    "condition": "Damaged",
+    "next_service_date": "2026-03-05"
+  },
+  {
+    "record_id": "REC-013",
+    "equipment_id": "LAB-AUT-01",
+    "equipment_name": "Automatic Autoclave Sterilizer",
+    "issued_to": "Benjamin Wilson",
+    "issue_date": "2026-03-05",
+    "return_date": "2026-03-05",
+    "condition": "Good",
+    "next_service_date": "2026-04-01"
+  },
+  {
+    "record_id": "REC-014",
+    "equipment_id": "LAB-INC-02",
+    "equipment_name": "Bacteriological Incubator",
+    "issued_to": "Charlotte Anderson",
+    "issue_date": "2026-02-25",
+    "return_date": null,
+    "condition": "Needs Repair",
+    "next_service_date": "2026-03-10"
+  },
+  {
+    "record_id": "REC-015",
+    "equipment_id": "LAB-LAF-01",
+    "equipment_name": "Laminar Air Flow Cabinet",
+    "issued_to": "James Thomas",
+    "issue_date": "2026-01-05",
+    "return_date": "2026-01-08",
+    "condition": "Good",
+    "next_service_date": "2025-12-01"
+  },
+  {
+    "record_id": "REC-016",
+    "equipment_id": "LAB-MISC-99",
+    "equipment_name": "Cafeteria Microwave Oven",
+    "issued_to": "Staff Room",
+    "issue_date": "2026-01-01",
+    "return_date": null,
+    "condition": "Good",
+    "next_service_date": "2027-01-01"
+  },
+  {
+    "record_id": "REC-017",
+    "equipment_id": "LAB-ROT-01",
+    "equipment_name": "Rotary Vacuum Evaporator",
+    "issued_to": "Amelia Taylor",
+    "issue_date": "2026-03-08",
+    "return_date": "2026-03-09",
+    "condition": "Good",
+    "next_service_date": "2026-08-11"
+  },
+  {
+    "record_id": "REC-018",
+    "equipment_id": "LAB-VIS-02",
+    "equipment_name": "Rotational Viscometer",
+    "issued_to": "Harper Moore",
+    "issue_date": "2026-02-14",
+    "return_date": "2026-02-15",
+    "condition": "Good",
+    "next_service_date": "2026-02-28"
+  },
+  {
+    "record_id": "REC-019",
+    "equipment_id": "LAB-REF-01",
+    "equipment_name": "Abbe Refractometer",
+    "issued_to": "Evelyn Lee",
+    "issue_date": "2026-03-11",
+    "return_date": null,
+    "condition": "Good",
+    "next_service_date": "2026-11-20"
+  },
+  {
+    "record_id": "REC-020",
+    "equipment_id": "LAB-SON-03",
+    "equipment_name": "Ultrasonic Bath Cleaner",
+    "issued_to": "Alexander White",
+    "issue_date": "2026-02-05",
+    "return_date": "2026-02-05",
+    "condition": "Needs Repair",
+    "next_service_date": "2026-03-01"
+  },
+  {
+    "record_id": "REC-021",
+    "equipment_id": "LAB-COND-01",
+    "equipment_name": "Benchtop Conductivity Meter",
+    "issued_to": "Abigail Harris",
+    "issue_date": "2026-03-13",
+    "return_date": null,
+    "condition": "Good",
+    "next_service_date": "2026-06-30"
+  },
+  {
+    "record_id": "REC-022",
+    "equipment_id": "LAB-SPEC-02",
+    "equipment_name": "UV-Vis Spectrophotometer",
+    "issued_to": "Daniel Clark",
+    "issue_date": "2026-02-22",
+    "return_date": "2026-02-24",
+    "condition": "Good",
+    "next_service_date": "2026-07-15"
+  },
+  {
+    "record_id": "REC-023",
+    "equipment_id": "LAB-DSO-02",
+    "equipment_name": "Digital Storage Oscilloscope 100MHz",
+    "issued_to": "Emily Lewis",
+    "issue_date": "2026-03-03",
+    "return_date": "2026-03-03",
+    "condition": "Damaged",
+    "next_service_date": "2026-03-15"
+  },
+  {
+    "record_id": "REC-024",
+    "equipment_id": "LAB-POL-01",
+    "equipment_name": "Automatic Polarimeter",
+    "issued_to": "Michael Robinson",
+    "issue_date": "2026-01-28",
+    "return_date": "2026-01-30",
+    "condition": "Good",
+    "next_service_date": "2026-05-10"
+  },
+  {
+    "record_id": "REC-025",
+    "equipment_id": "LAB-MFL-01",
+    "equipment_name": "Muffle Furnace 1200C",
+    "issued_to": "Elizabeth Walker",
+    "issue_date": "2026-02-11",
+    "return_date": null,
+    "condition": "Needs Repair",
+    "next_service_date": "2026-02-25"
+  },
+  {
+    "record_id": "REC-026",
+    "equipment_id": "LAB-PCR-01",
+    "equipment_name": "Thermal Cycler PCR Machine",
+    "issued_to": "Henry Young",
+    "issue_date": "2026-03-07",
+    "return_date": "2026-03-10",
+    "condition": "Good",
+    "next_service_date": "2026-09-01"
+  },
+  {
+    "record_id": "REC-027",
+    "equipment_id": "LAB-GEL-02",
+    "equipment_name": "Gel Electrophoresis System",
+    "issued_to": "Avery Allen",
+    "issue_date": "2026-02-19",
+    "return_date": "2026-02-19",
+    "condition": "Good",
+    "next_service_date": "2026-08-05"
+  },
+  {
+    "record_id": "REC-028",
+    "equipment_id": "LAB-VAC-04",
+    "equipment_name": "Diaphragm Vacuum Pump",
+    "issued_to": "Sofia King",
+    "issue_date": "2026-03-01",
+    "return_date": null,
+    "condition": "Good",
+    "next_service_date": "2026-03-18"
+  },
+  {
+    "record_id": "REC-029",
+    "equipment_id": "LAB-FLUX-01",
+    "equipment_name": "Solder Smoke Absorber",
+    "issued_to": "Jackson Wright",
+    "issue_date": "2026-01-20",
+    "return_date": "2026-01-22",
+    "condition": "Good",
+    "next_service_date": "2026-07-07"
+  },
+  {
+    "record_id": "REC-030",
+    "equipment_id": "",
+    "equipment_name": "Handheld Digital Tachometer",
+    "issued_to": "Ella Scott",
+    "issue_date": "2026-02-15",
+    "return_date": "2026-02-16",
+    "condition": "Good",
+    "next_service_date": "2026-04-12"
+  },
+  {
+    "record_id": "REC-031",
+    "equipment_id": "LAB-TURB-01",
+    "equipment_name": "Portable Turbidimeter",
+    "issued_to": "Sebastian Torres",
+    "issue_date": "2026-03-04",
+    "return_date": "2026-03-05",
+    "condition": "Good",
+    "next_service_date": "2026-10-10"
+  },
+  {
+    "record_id": "REC-032",
+    "equipment_id": "LAB-LOG-03",
+    "equipment_name": "USB Logic Analyzer 16Ch",
+    "issued_to": "Grace Nguyen",
+    "issue_date": "2026-03-12",
+    "return_date": null,
+    "condition": "Good",
+    "next_service_date": "2026-06-01"
+  },
+  {
+    "record_id": "REC-033",
+    "equipment_id": "LAB-CAL-02",
+    "equipment_name": "Digital Caliper 150mm",
+    "issued_to": "Aiden Hill",
+    "issue_date": "2026-02-08",
+    "return_date": "2026-02-08",
+    "condition": "Damaged",
+    "next_service_date": "2026-02-20"
+  },
+  {
+    "record_id": "REC-034",
+    "equipment_id": "LAB-VORT-05",
+    "equipment_name": "Vortex Mixer Test Tube Shaker",
+    "issued_to": "Chloe Flores",
+    "issue_date": "2026-03-09",
+    "return_date": "2026-03-09",
+    "condition": "Good",
+    "next_service_date": "2026-08-15"
+  },
+  {
+    "record_id": "REC-035",
+    "equipment_id": "LAB-LUX-01",
+    "equipment_name": "Digital Lux Light Meter",
+    "issued_to": "Matthew Green",
+    "issue_date": "2026-01-18",
+    "return_date": "2026-01-19",
+    "condition": "Good",
+    "next_service_date": "2025-11-30"
+  },
+  {
+    "record_id": "REC-036",
+    "equipment_id": "LAB-GAUSS-01",
+    "equipment_name": "Digital Gaussmeter Probe",
+    "issued_to": "Victoria Adams",
+    "issue_date": "2026-02-27",
+    "return_date": null,
+    "condition": "Needs Repair",
+    "next_service_date": "2026-03-15"
+  },
+  {
+    "record_id": "REC-037",
+    "equipment_id": "LAB-STERO-03",
+    "equipment_name": "Stereo Zoom Trinocular Microscope",
+    "issued_to": "Samuel Baker",
+    "issue_date": "2026-03-02",
+    "return_date": "2026-03-07",
+    "condition": "Good",
+    "next_service_date": "2026-09-30"
+  },
+  {
+    "record_id": "REC-038",
+    "equipment_id": "LAB-RHEO-01",
+    "equipment_name": "Dynamic Shear Rheometer",
+    "issued_to": "Scarlett Gonzalez",
+    "issue_date": "2026-01-25",
+    "return_date": "2026-01-29",
+    "condition": "Good",
+    "next_service_date": "2026-01-30"
+  },
+  {
+    "record_id": "REC-039",
+    "equipment_id": "LAB-FLIR-01",
+    "equipment_name": "Thermal Imaging Camera FLIR",
+    "issued_to": "David Nelson",
+    "issue_date": "2026-03-14",
+    "return_date": null,
+    "condition": "Good",
+    "next_service_date": "2026-07-25"
+  },
+  {
+    "record_id": "REC-040",
+    "equipment_id": "LAB-SPECT-03",
+    "equipment_name": "UV-Vis Spectrophotometer",
+    "issued_to": "Zoe Carter",
+    "issue_date": "2026-02-14",
+    "return_date": "2026-02-16",
+    "condition": "Good",
+    "next_service_date": "2026-08-10"
+  }
+]
